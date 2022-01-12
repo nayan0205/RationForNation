@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:gravity="center"
+            android:text="Retail Price per k.g."
+            android:textColor="#000000"
+            android:textSize="20sp"  />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:gravity="center"
+            android:text="Iteam Name"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:textSize="20sp"
+            android:text="AYY"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:text="PH"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:gravity="center"
+            android:text="Rice"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:textSize="20sp"
+            android:text="3.0"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:text="3.0"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:gravity="center"
+            android:text="Wheat"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:textSize="20sp"
+            android:text="2.0"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:text="2.0"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:gravity="center"
+            android:text="Grains"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:textSize="20sp"
+            android:text="1.0"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:text="1.0"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:gravity="center"
+            android:text="Sugar"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:textSize="20sp"
+            android:text="20.0"
+            android:gravity="center"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_weight="1"
+            android:background="#dcdcdc"
+            android:padding="20dip"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="#000000" />
+
+
+    </TableRow>
+</TableLayout>

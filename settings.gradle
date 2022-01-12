@@ -1,0 +1,2 @@
+rootProject.name = "Ration For Nation"
+include ':app'

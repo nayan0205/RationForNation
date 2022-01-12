@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/teal_200">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CUSTOMER"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerInParent="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="phone number"
+            android:id="@+id/PhoneNumber2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name and surname"
+            android:id="@+id/text_name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="fps id"
+            android:id="@+id/fpsID"/>
+
+        <EditText
+            android:id="@+id/rationnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ration number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="create new password"
+            android:id="@+id/password2"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="confirm new password"
+            android:id="@+id/confirmpassword2"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SignUP"
+            android:background="#3f76ff"
+            android:textColor="#fff"
+            android:id="@+id/signup2"/>
+    </LinearLayout>
+</RelativeLayout>

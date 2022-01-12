@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400369174086",
+    "project_id": "rationfornation-b5a0e",
+    "storage_bucket": "rationfornation-b5a0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400369174086:android:f3b5d957b6ae7654ebec47",
+        "android_client_info": {
+          "package_name": "com.example.rationfornation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400369174086-4litqgc8i5r5hjih31hipn7j5ih7rc3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdDF3yc3VOd6NHUOESWGecI70uPIt2YYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400369174086-4litqgc8i5r5hjih31hipn7j5ih7rc3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
